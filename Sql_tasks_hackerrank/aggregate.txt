@@ -123,36 +123,3 @@ where (select round(count(S1.ID)/2) - 1
       (select count(S2.ID) 
        from station AS S2 
        where S2.LAT_N > S1.LAT_N);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
